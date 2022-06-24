@@ -1,0 +1,32 @@
+GET http://localhost:3000/users/
+
+###
+
+GET http://localhost:3000/users/62b56eeabbf915add81661ec
+
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+    "name":"sam",
+    "age":27,
+    "email":"sam@gmail.com"
+}
+
+###
+
+DELETE http://localhost:3000/users/62b56ed5bbf915add81661d1
+
+
+###
+
+PATCH http://localhost:3000/users/62b58231b15eedef93bb165a
+Content-Type: application/json
+
+{
+    "name":"sam",
+    "age":28,
+    "email":"prakasham@gmail.com"
+}
